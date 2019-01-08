@@ -21,7 +21,7 @@ class Stack:
         RETURN        : True if stack is empty, else False.
         '''
 	# SIDE EFFECT : None
-        # APPOACH     : Check if the stack is equal to [].
+        # APPROACH    : Check if the stack is equal to [].
         return self.stack == []
         
     def push(self,element):
