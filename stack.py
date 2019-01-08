@@ -9,8 +9,8 @@ class Stack:
                  self : Implicit parameter, an object of Stack class.
         RETURN        : None
         '''
-	      # SIDE EFFECT : None
-	      # APPROACH    : Create an empty stack list.
+	# SIDE EFFECT : None
+	# APPROACH    : Create an empty stack list.
         self.stack = []
 		
     def isEmpty(self):
@@ -20,7 +20,7 @@ class Stack:
                  self : Implicit parameter, an object of Stack class.
         RETURN        : True if stack is empty, else False.
         '''
-	      # SIDE EFFECT : None
+	# SIDE EFFECT : None
         # APPOACH     : Check if the stack is equal to [].
         return self.stack == []
         
@@ -32,7 +32,7 @@ class Stack:
               element : Integer, the element which is to be pushed onto stack.
         RETURN        : None
         '''
-	      # SIDE EFFECT : Modifies the stack by adding an element at the top.
+	# SIDE EFFECT : Modifies the stack by adding an element at the top.
         # APPROACH    : Use append() function.
         self.stack.append(element)
 
